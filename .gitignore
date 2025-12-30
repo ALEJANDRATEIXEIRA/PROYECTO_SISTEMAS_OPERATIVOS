@@ -1,0 +1,30 @@
+# Ejecutables
+*.exe
+*.out
+scheduler_simulator
+scheduler_simulator.exe
+
+# Archivos objeto
+*.o
+*.obj
+
+# Directorios de compilación
+obj/
+build/
+bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.log
+
