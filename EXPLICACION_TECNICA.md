@@ -51,10 +51,10 @@ for (auto& process : processes) {
 **Complejidad temporal:** O(n log n) por el ordenamiento
 
 **Características:**
-- ✅ No apropiativo (no interrumpe)
-- ✅ Simple de implementar
-- ❌ Puede causar convoy effect (proceso largo bloquea a otros)
-- ❌ Alto tiempo de espera promedio
+-  No apropiativo (no interrumpe)
+-  Simple de implementar
+-  Puede causar convoy effect (proceso largo bloquea a otros)
+-  Alto tiempo de espera promedio
 
 ---
 
@@ -91,10 +91,10 @@ Process* getShortestJob(int currentTime) {
 **Complejidad temporal:** O(n²) - busca proceso más corto en cada iteración
 
 **Características:**
-- ✅ Minimiza tiempo promedio de espera
-- ✅ Óptimo para minimizar tiempo de retorno promedio
-- ❌ Puede causar inanición (starvation)
-- ❌ Requiere conocer el tiempo de ráfaga de antemano
+-  Minimiza tiempo promedio de espera
+-  Óptimo para minimizar tiempo de retorno promedio
+-  Puede causar inanición (starvation)
+-  Requiere conocer el tiempo de ráfaga de antemano
 
 ---
 
@@ -126,11 +126,11 @@ if (currentProcess.getState() != ProcessState::TERMINATED) {
 **Complejidad temporal:** O(n × tiempo_total / quantum)
 
 **Características:**
-- ✅ Justo - todos reciben tiempo equitativo
-- ✅ Buen tiempo de respuesta
-- ✅ No causa inanición
-- ❌ Overhead por cambios de contexto frecuentes
-- ⚙️ Quantum configurable afecta rendimiento
+-  Justo - todos reciben tiempo equitativo
+-  Buen tiempo de respuesta
+-  No causa inanición
+- Overhead por cambios de contexto frecuentes
+-  Quantum configurable afecta rendimiento
 
 **Efecto del quantum:**
 - Quantum muy pequeño → Muchos cambios de contexto → Overhead alto
@@ -187,14 +187,14 @@ Process* getHighestPriorityProcess(int currentTime) {
 - Con desalojo: O(n × tiempo_total)
 
 **Características:**
-- ✅ Permite priorizar procesos importantes
-- ✅ Útil para sistemas en tiempo real
-- ❌ Puede causar inanición para baja prioridad
-- ❌ Prioridades deben asignarse cuidadosamente
+-  Permite priorizar procesos importantes
+-  Útil para sistemas en tiempo real
+- Puede causar inanición para baja prioridad
+-  Prioridades deben asignarse cuidadosamente
 
 ---
 
-## 📊 SISTEMA DE MÉTRICAS
+## SISTEMA DE MÉTRICAS
 
 ### Fórmulas Implementadas
 
@@ -253,7 +253,7 @@ SystemMetrics calculateSystemMetrics(const std::vector<Process>& processes, int 
 
 ---
 
-## 🎨 DIAGRAMA DE GANTT
+##  DIAGRAMA DE GANTT
 
 **Formato de salida:**
 ```
@@ -306,7 +306,7 @@ Usuario selecciona opción
 
 ---
 
-## 💾 ESTRUCTURA DE DATOS UTILIZADAS
+##  ESTRUCTURA DE DATOS UTILIZADAS
 
 ### std::vector<Process>
 - **Uso:** Almacenar lista de procesos
@@ -325,8 +325,7 @@ Usuario selecciona opción
 - **Ventaja:** Estructura simple para tuplas
 
 ---
-
-## 🎯 DECISIONES DE DISEÑO
+##  DECISIONES DE DISEÑO
 
 ### 1. ¿Por qué clases separadas para cada algoritmo?
 **Respuesta:** Principio de responsabilidad única. Cada algoritmo tiene su propia lógica y puede evolucionar independientemente.
@@ -342,7 +341,7 @@ Usuario selecciona opción
 
 ---
 
-## 🔧 FUNCIONES AUXILIARES IMPORTANTES
+##  FUNCIONES AUXILIARES IMPORTANTES
 
 ### executeProcess()
 ```cpp
@@ -366,7 +365,7 @@ void Scheduler::reset() {
 
 ---
 
-## 📈 COMPARACIÓN DE COMPLEJIDAD
+##  COMPARACIÓN DE COMPLEJIDAD
 
 | Algoritmo | Complejidad Temporal | Complejidad Espacial |
 |-----------|---------------------|---------------------|
@@ -380,7 +379,7 @@ void Scheduler::reset() {
 
 ---
 
-## 🎓 CONCEPTOS DE SISTEMAS OPERATIVOS APLICADOS
+##  CONCEPTOS DE SISTEMAS OPERATIVOS APLICADOS
 
 1. **Estados de Proceso:** Nuevo, Listo, Ejecutando, Terminado
 2. **Cola de Listos:** Procesos esperando CPU
@@ -392,7 +391,7 @@ void Scheduler::reset() {
 
 ---
 
-## 🚀 MEJORAS POSIBLES (Opcional para mencionar)
+##  MEJORAS POSIBLES (Opcional para mencionar)
 
 Si preguntan sobre mejoras futuras:
 

@@ -1,23 +1,16 @@
-# 🎓 Guía Completa para la Defensa del Proyecto
 ## Simulador de Algoritmos de Planificación de CPU
 
----
+##  ESTADO DEL PROYECTO
 
-## ✅ ESTADO DEL PROYECTO
+-  4 algoritmos implementados (FCFS, SJF, Round Robin, Prioridades)
+-  Sistema de métricas completo
+-  Interfaz de usuario funcional
+-  Casos de prueba obligatorios
+- Ejecutable compilado (`scheduler_simulator.exe`)
+-  Código estructurado y comentado
 
-**¡SÍ, EL PROYECTO ESTÁ LISTO!**
 
-Tu proyecto tiene:
-- ✅ 4 algoritmos implementados (FCFS, SJF, Round Robin, Prioridades)
-- ✅ Sistema de métricas completo
-- ✅ Interfaz de usuario funcional
-- ✅ Casos de prueba obligatorios
-- ✅ Ejecutable compilado (`scheduler_simulator.exe`)
-- ✅ Código estructurado y comentado
-
----
-
-## 📋 PARTE 1: COMPILACIÓN PASO A PASO
+##  PARTE 1: COMPILACIÓN PASO A PASO
 
 ### Método 1: Usando el Script (MÁS FÁCIL)
 
@@ -63,7 +56,7 @@ g++ -std=c++17 -Wall -O2 -o scheduler_simulator.exe ^
 
 ---
 
-## 🎯 PARTE 2: CÓMO FUNCIONA EL PROYECTO
+## PARTE 2: CÓMO FUNCIONA EL PROYECTO
 
 ### Arquitectura del Sistema
 
@@ -291,7 +284,7 @@ Con desalojo: P2 interrumpe a P1 porque tiene mayor prioridad
 
 ---
 
-## 🎤 PARTE 3: CÓMO PRESENTAR Y DEMOSTRAR
+##  PARTE 3: CÓMO PRESENTAR Y DEMOSTRAR
 
 ### ESTRUCTURA RECOMENDADA PARA LA PRESENTACIÓN
 
@@ -432,7 +425,7 @@ el tiempo de espera pero puede causar inanición."
 
 ---
 
-## 📝 SCRIPT DE DEMOSTRACIÓN PASO A PASO
+##  SCRIPT DE DEMOSTRACIÓN PASO A PASO
 
 ### Secuencia Exacta para la Presentación:
 
@@ -484,7 +477,7 @@ el tiempo de espera pero puede causar inanición."
 
 ---
 
-## 💡 PREGUNTAS FRECUENTES EN LA DEFENSA
+## PREGUNTAS FRECUENTES EN LA DEFENSA
 
 ### P: "¿Por qué elegiste C++?"
 **R:** "C++ permite programación orientada a objetos, es eficiente para sistemas operativos, y nos permite implementar los algoritmos desde cero sin bibliotecas que hagan el trabajo por nosotros."
@@ -503,33 +496,6 @@ el tiempo de espera pero puede causar inanición."
 
 ---
 
-## ✅ CHECKLIST ANTES DE LA PRESENTACIÓN
 
-- [ ] Proyecto compila sin errores
-- [ ] Ejecutable funciona correctamente
-- [ ] Casos de prueba están en test_cases/
-- [ ] Código tiene comentarios importantes
-- [ ] Sabes explicar cada algoritmo
-- [ ] Has probado todos los algoritmos
-- [ ] Conoces las fórmulas de las métricas
-- [ ] Tienes respuestas para preguntas comunes
-- [ ] Archivos de código están organizados
-- [ ] README está completo
-
----
-
-## 🎯 CONSEJOS FINALES
-
-1. **Practica la demostración** antes de la presentación
-2. **Prepara ejemplos específicos** para cada algoritmo
-3. **Ten abierto el código** en tu editor para mostrar si te lo piden
-4. **Explica el Diagrama de Gantt** claramente
-5. **Compara resultados** entre algoritmos
-6. **Sé honesto** sobre limitaciones si las hay
-7. **Muestra entusiasmo** por lo que implementaste
-
----
-
-**¡ÉXITO EN TU PRESENTACIÓN! 🚀**
 
 
