@@ -1,11 +1,5 @@
-# 🔬 Explicación Técnica Detallada del Proyecto
-
-## 📐 ARQUITECTURA DEL SISTEMA
-
-### Diseño Orientado a Objetos
-
-```
-Scheduler (Clase Base Abstracta)
+#  Explicación Técnica Detallada del Proyecto
+Scheduler
     │
     ├── FCFS
     ├── SJF
@@ -20,7 +14,7 @@ Scheduler (Clase Base Abstracta)
 
 ---
 
-## 🔍 ANÁLISIS DETALLADO DE CADA ALGORITMO
+## ANÁLISIS DETALLADO DE CADA ALGORITMO
 
 ### 1. FCFS (First Come First Served)
 

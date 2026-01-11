@@ -1,10 +1,7 @@
 # Simulador de Algoritmos de Planificación de CPU
 
-Simulador educativo que implementa y compara los principales algoritmos de planificación de procesos en sistemas operativos.
+Simulador que implementa y compara los principales algoritmos de planificación de procesos en sistemas operativos:
 
-## 📋 Características
-
-### Algoritmos Implementados
 - **FCFS** (First Come First Served) - Planificación por orden de llegada
 - **SJF** (Shortest Job First) - Planificación por trabajo más corto (no apropiativo)
 - **Round Robin** - Planificación circular con quantum configurable
@@ -24,13 +21,12 @@ Simulador educativo que implementa y compara los principales algoritmos de plani
 - Comparación entre algoritmos
 - Análisis automático de mejor algoritmo
 
-## 🔧 Requisitos
-
+## Requisitos
 - Compilador C++ compatible con C++17 (g++, clang++, o MSVC)
 - Sistema operativo: Windows, Linux o macOS
 - Make (opcional, para usar Makefile)
 
-## 📦 Instalación
+## Instalación
 
 ### Compilación Manual
 
@@ -55,7 +51,7 @@ Para Windows con MinGW:
 mingw32-make
 ```
 
-## 🚀 Uso
+## Uso
 
 ### Ejecutar el programa
 
@@ -97,32 +93,7 @@ P3	2	9	4
 P4	3	5	2
 ```
 
-## 📁 Estructura del Proyecto
-
-```
-proyecto SO/
-├── Core/
-│   ├── process.h/cpp      # Clase Process
-│   └── scheduler.h/cpp    # Clase base Scheduler
-├── algorithms/
-│   ├── fcfs.h/cpp         # Algoritmo FCFS
-│   ├── sjf.h/cpp          # Algoritmo SJF
-│   ├── round_robin.h/cpp  # Algoritmo Round Robin
-│   └── priority.h/cpp     # Algoritmo de Prioridades
-├── UI/
-│   └── interface.h/cpp    # Interfaz de usuario
-├── Utils/
-│   └── file_handler.h/cpp # Manejo de archivos
-├── test_cases/            # Casos de prueba
-│   ├── conjunto1.txt      # Caso de prueba básico
-│   └── conjunto2.txt      # Caso de prueba variado
-├── metrics.h/cpp          # Cálculo de métricas
-├── main.cpp               # Programa principal
-├── Makefile               # Script de compilación
-└── README.md              # Este archivo
-```
-
-## 📊 Casos de Prueba
+## Casos de Prueba
 
 El programa incluye dos casos de prueba obligatorios:
 
@@ -139,7 +110,7 @@ El programa incluye dos casos de prueba obligatorios:
 - P4: Llegada=6, Ráfaga=1, Prioridad=1
 - P5: Llegada=8, Ráfaga=4, Prioridad=2
 
-## 🔍 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### Ejemplo 1: Ejecutar FCFS
 
@@ -155,7 +126,7 @@ El programa incluye dos casos de prueba obligatorios:
 2. Seleccione opción 5: "Comparar todos los algoritmos"
 3. Revise la tabla comparativa y el mejor algoritmo
 
-## 🛠️ Solución de Problemas
+## Solución de Problemas
 
 ### Error de compilación en Windows
 - Asegúrese de tener MinGW instalado
@@ -169,18 +140,15 @@ El programa incluye dos casos de prueba obligatorios:
 - Verifique que todos los archivos fuente estén presentes
 - Asegúrese de usar C++17 o superior
 
-## 📝 Notas
+##  Notas
 
 - Las prioridades son numéricas: menor número = mayor prioridad
 - El quantum en Round Robin es configurable por el usuario
 - El Diagrama de Gantt muestra visualmente el orden de ejecución
 - Todas las métricas se calculan automáticamente
 
-## 👥 Autores
+## Autores
 
-Proyecto desarrollado para el curso de Sistemas Operativos - UCAB
-
-## 📄 Licencia
-
-Este proyecto es de uso educativo.
-
+Daniel Verschuur 
+Alejandra Teixeira 
+Valeria Leon

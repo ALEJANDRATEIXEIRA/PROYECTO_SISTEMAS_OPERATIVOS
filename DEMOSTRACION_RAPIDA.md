@@ -1,8 +1,6 @@
-# ⚡ Guía Rápida de Demostración
+# Guía Rápida 
 
-## 🎯 Para la Presentación (15 minutos)
-
-### 1️⃣ INTRODUCCIÓN RÁPIDA (1 min)
+### 1. INTRODUCCIÓN RÁPIDA
 ```
 "Simulador de algoritmos de planificación de CPU que implementa 
 FCFS, SJF, Round Robin y Prioridades para comparar rendimiento."
@@ -10,7 +8,7 @@ FCFS, SJF, Round Robin y Prioridades para comparar rendimiento."
 
 ---
 
-### 2️⃣ EJECUTAR Y DEMOSTRAR (12 min)
+### 2. EJECUTAR Y DEMOSTRAR (12 min)
 
 **Abrir terminal y ejecutar:**
 ```cmd
@@ -69,7 +67,7 @@ scheduler_simulator.exe
    → Enter
    ```
 
-7. **COMPARAR TODOS** ⭐
+7. **COMPARAR TODOS** 
    ```
    → 5 (Comparar todos)
    → Mostrar tabla comparativa
@@ -85,7 +83,7 @@ scheduler_simulator.exe
 
 ---
 
-### 3️⃣ EXPLICACIÓN TÉCNICA RÁPIDA (2 min)
+### 3️. EXPLICACIÓN TÉCNICA RÁPIDA (2 min)
 
 **Puntos clave a mencionar:**
 
@@ -96,7 +94,7 @@ scheduler_simulator.exe
 
 ---
 
-## 📊 DATOS DEL CASO DE PRUEBA 1
+## DATOS DEL CASO DE PRUEBA 1
 
 ```
 P1: Llega=0,  Ráfaga=8,  Prioridad=3
@@ -114,7 +112,7 @@ P4: Llega=3,  Ráfaga=5,  Prioridad=2
 
 ---
 
-## 💬 FRASES CLAVE PARA EXPLICAR
+## RESUMEN 
 
 **FCFS:**
 > "First Come First Served ejecuta procesos en el orden que llegan. Es simple pero puede tener alto tiempo de espera si un proceso largo llega primero."
@@ -130,19 +128,6 @@ P4: Llega=3,  Ráfaga=5,  Prioridad=2
 
 ---
 
-## ✅ CHECKLIST RÁPIDO
 
-- [x] Ejecutable compilado y funcionando
-- [ ] Practicar la secuencia de demostración
-- [ ] Saber explicar cada algoritmo en 30 segundos
-- [ ] Entender las métricas mostradas
-- [ ] Preparar respuesta para "¿cuál es mejor?"
-
----
-
-**TIEMPO TOTAL: ~15 minutos**
-- Intro: 1 min
-- Demo: 12 min  
-- Preguntas: 2 min
 
 
